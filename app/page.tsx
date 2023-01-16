@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import styles from './styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 
 export default function Page() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
+    <main className={styles.main}>
+      <div className={styles.container}>
         <h2>Hello  world</h2>
         <ul>
           <li>
@@ -16,8 +16,8 @@ export default function Page() {
           <li>
             < Link href="/products/cat">Cat</Link>
           </li>
-        </ul>
-      </main>
-    </div>
+      </ul>
+      </div>
+    </main >
   );
 }

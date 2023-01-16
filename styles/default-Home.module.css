@@ -4,8 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  /* min-height: 100vh; */
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 .description {
@@ -129,14 +128,6 @@
   content: '';
   position: absolute;
   z-index: -1;
-}
-
-.header {
-  background-color: #2C7873;
-}
-
-.footer {
-  background-color: #2C7873;
 }
 
 /* Conic Gradient Animation */
