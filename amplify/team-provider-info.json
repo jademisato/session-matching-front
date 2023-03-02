@@ -10,6 +10,14 @@
       "StackName": "amplify-nextapp-dev-112331",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:642768377125:stack/amplify-nextapp-dev-112331/95732ca0-a757-11ed-bf66-0602e97722e1",
       "AmplifyAppId": "dv74pgwwiobod"
+    },
+    "categories": {
+      "auth": {
+        "nextapp4fb5bd67": {}
+      },
+      "api": {
+        "nextapp": {}
+      }
     }
   }
 }
